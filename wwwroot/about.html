@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about our ASP.NET Core static website, our mission, values, and the technology behind our platform.">
+    <meta name="keywords" content="about us, ASP.NET Core, web development, static website, technology">
+    <meta name="author" content="Static Website">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph meta tags for social media -->
+    <meta property="og:title" content="About Us - Static Website">
+    <meta property="og:description" content="Learn about our ASP.NET Core static website and the technology behind our platform.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/about.html">
+    
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="About Us - Static Website">
+    <meta name="twitter:description" content="Learn about our ASP.NET Core static website and the technology behind our platform.">
+    
+    <title>About Us - Static Website</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="preload" href="js/main.js" as="script">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Static Website</a>
+                
+                <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    ☰
+                </button>
+                
+                <nav role="navigation" aria-label="Main navigation">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html" class="active">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <div class="container">
+            <!-- Page header -->
+            <section class="page-header">
+                <h1>About Our Platform</h1>
+                <p>Discover the story behind our ASP.NET Core static website and the principles that guide our development approach.</p>
+            </section>
+
+            <!-- Mission section -->
+            <section class="content-section">
+                <h2>Our Mission</h2>
+                <p>
+                    We are dedicated to demonstrating the power and flexibility of ASP.NET Core for creating modern, 
+                    efficient static websites. Our mission is to showcase best practices in web development while 
+                    maintaining simplicity, performance, and accessibility.
+                </p>
+                <p>
+                    Through this platform, we aim to provide a comprehensive example of how to build professional-grade 
+                    static websites using Microsoft's ASP.NET Core framework with minimal hosting model, proving that 
+                    powerful web applications don't always need complex architectures.
+                </p>
+            </section>
+
+            <!-- Technology stack section -->
+            <section class="content-section">
+                <h2>Technology Stack</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>🏗️ ASP.NET Core</h3>
+                        <p>Built on .NET 8.0 LTS using the minimal hosting model for optimal performance and simplicity.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h3>🎨 Modern CSS</h3>
+                        <p>Responsive design using CSS Grid, Flexbox, and modern CSS features for cross-browser compatibility.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h3>⚡ Vanilla JavaScript</h3>
+                        <p>Clean, efficient JavaScript without dependencies for enhanced performance and maintainability.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h3>📋 Semantic HTML</h3>
+                        <p>Proper HTML5 semantic markup for better SEO, accessibility, and code maintainability.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features section -->
+            <section class="content-section">
+                <h2>Key Features & Capabilities</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 1.5rem;">
+                    <div>
+                        <h3>🔍 SEO Optimized</h3>
+                        <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                            <li>Comprehensive meta tags</li>
+                            <li>Open Graph support</li>
+                            <li>Twitter Card integration</li>
+                            <li>Semantic HTML structure</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3>📱 Responsive Design</h3>
+                        <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                            <li>Mobile-first approach</li>
+                            <li>Flexible grid layouts</li>
+                            <li>Touch-friendly navigation</li>
+                            <li>Optimized for all screen sizes</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3>♿ Accessibility</h3>
+                        <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                            <li>ARIA labels and roles</li>
+                            <li>Keyboard navigation support</li>
+                            <li>Screen reader compatibility</li>
+                            <li>High contrast support</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3>⚡ Performance</h3>
+                        <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                            <li>Minimal resource loading</li>
+                            <li>Optimized CSS and JS</li>
+                            <li>Efficient caching strategies</li>
+                            <li>Fast page load times</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Development principles -->
+            <section class="content-section">
+                <h2>Development Principles</h2>
+                <p>Our development approach is guided by several key principles that ensure quality, maintainability, and user satisfaction:</p>
+                
+                <div style="margin-top: 1.5rem;">
+                    <h3 style="color: #2c3e50; margin-bottom: 0.5rem;">🎯 Simplicity First</h3>
+                    <p style="margin-bottom: 1.5rem;">
+                        We believe in keeping things simple and avoiding unnecessary complexity. Our codebase is clean, 
+                        well-documented, and easy to understand, making it accessible for developers of all skill levels.
+                    </p>
+                    
+                    <h3 style="color: #2c3e50; margin-bottom: 0.5rem;">🔧 Best Practices</h3>
+                    <p style="margin-bottom: 1.5rem;">
+                        We follow industry best practices for web development, including proper semantic markup, 
+                        progressive enhancement, and graceful degradation to ensure broad compatibility.
+                    </p>
+                    
+                    <h3 style="color: #2c3e50; margin-bottom: 0.5rem;">🌍 Inclusive Design</h3>
+                    <p style="margin-bottom: 1.5rem;">
+                        Our platform is designed to be inclusive and accessible to all users, regardless of their 
+                        abilities, devices, or internet connection speed.
+                    </p>
+                    
+                    <h3 style="color: #2c3e50; margin-bottom: 0.5rem;">📈 Continuous Improvement</h3>
+                    <p>
+                        We continuously evaluate and improve our platform, incorporating feedback and staying up-to-date 
+                        with the latest web development trends and technologies.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Call to action -->
+            <section class="content-section text-center">
+                <h2>Want to Learn More?</h2>
+                <p>
+                    If you're interested in learning more about our development process or have questions about 
+                    implementing similar solutions, we'd love to hear from you.
+                </p>
+                <div class="mt-2">
+                    <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+                    <a href="index.html" class="btn" style="margin-left: 1rem;">Back to Home</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div>
+                    <p>&copy; 2024 Static Website. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
