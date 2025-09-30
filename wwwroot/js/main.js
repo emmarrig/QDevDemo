@@ -129,7 +129,7 @@ function showMessage(message, type) {
         border-radius: 4px;
         font-weight: bold;
         ${type === 'success' ? 
-            'background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb;' : 
+            'background-color: #d5f4e6; color: #1e8449; border: 1px solid #27ae60;' : 
             'background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb;'
         }
     `;
