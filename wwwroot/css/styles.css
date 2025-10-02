@@ -21,7 +21,7 @@ body {
 
 /* Header and Navigation */
 header {
-    background-color: #1e8449;
+    background-color: #c0392b;
     color: white;
     padding: 1rem 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -57,7 +57,7 @@ nav a {
 
 nav a:hover,
 nav a.active {
-    background-color: #229954;
+    background-color: #a93226;
 }
 
 /* Mobile menu toggle */
@@ -83,7 +83,7 @@ main {
 
 .page-header h1 {
     font-size: 2.5rem;
-    color: #1e8449;
+    color: #c0392b;
     margin-bottom: 1rem;
 }
 
@@ -104,7 +104,7 @@ main {
 }
 
 .content-section h2 {
-    color: #1e8449;
+    color: #c0392b;
     margin-bottom: 1rem;
     font-size: 1.8rem;
 }
@@ -136,7 +136,7 @@ main {
 }
 
 .feature-card h3 {
-    color: #1e8449;
+    color: #c0392b;
     margin-bottom: 1rem;
 }
 
@@ -154,7 +154,7 @@ main {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: bold;
-    color: #1e8449;
+    color: #c0392b;
 }
 
 .form-group input,
@@ -172,7 +172,7 @@ main {
 .form-group textarea:focus,
 .form-group select:focus {
     outline: none;
-    border-color: #27ae60;
+    border-color: #e74c3c;
 }
 
 .form-group textarea {
@@ -183,7 +183,7 @@ main {
 .btn {
     display: inline-block;
     padding: 0.75rem 2rem;
-    background-color: #27ae60;
+    background-color: #e74c3c;
     color: white;
     text-decoration: none;
     border: none;
@@ -194,20 +194,20 @@ main {
 }
 
 .btn:hover {
-    background-color: #229954;
+    background-color: #c0392b;
 }
 
 .btn-primary {
-    background-color: #27ae60;
+    background-color: #e74c3c;
 }
 
 .btn-primary:hover {
-    background-color: #229954;
+    background-color: #c0392b;
 }
 
 /* Footer */
 footer {
-    background-color: #1e8449;
+    background-color: #c0392b;
     color: white;
     text-align: center;
     padding: 2rem 0;
@@ -234,7 +234,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #2ecc71;
+    color: #ec7063;
 }
 
 /* Responsive design */
@@ -268,7 +268,7 @@ footer {
     nav a {
         display: block;
         padding: 1rem;
-        border-bottom: 1px solid #229954;
+        border-bottom: 1px solid #a93226;
     }
     
     .page-header h1 {
